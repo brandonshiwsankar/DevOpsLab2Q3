@@ -13,5 +13,9 @@ Current date and time is:
 <%=(new java.util.Date()).toLocaleString() %>
 </h1>
 
+<h6>
+   COMP367 lAB 2
+</h6>
+
 </body>
 </html>
