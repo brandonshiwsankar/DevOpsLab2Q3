@@ -1,10 +1,11 @@
+
 pipeline {
     agent any
     
     stages {
         stage('Build Maven Project') {
             steps {
-                sh 'mvn clean package'
+                sh 'mvn clean install'
             }
             post {
                 success {
