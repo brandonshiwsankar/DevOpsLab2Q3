@@ -6,16 +6,13 @@
 <title>JSP page</title>
 </head>
 <body>
-<h2>Good morning Brandon Shiwsankar, Welcome to COMP367</h2>
+<h2>Good Morning, Brandon Shiwsankar, Welcome to COMP367</h2>
 
 <h1>
 Current date and time is:
 <%=(new java.util.Date()).toLocaleString() %>
 </h1>
 
-<h6>
-   COMP367 lAB 2
-</h6>
 
 </body>
 </html>
